@@ -1,13 +1,8 @@
-# Okay Scrapy
-----------------------------------
-This is a scrapy implements with NodeJS.
-
+# ok-spider
+a simple web crawler like scrapy.
 
 ## Notice
-----------------------------
-Unstable version.
-
+WARNING!!! Unstable version.
 
 ## Example
--------------------
-Please see example folder. More docs will be added soon later.
+Please see `src/example` folder. More docs will be added soon later.
