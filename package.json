@@ -4,7 +4,7 @@
   "description": "a simple web crawler like scrapy.",
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/typings install; find ./typings -iname *.ts | xargs -n1 -I {} gsed -i '/^export as namespace/d' {}",
+    "postinstall": "./node_modules/.bin/typings install; find ./typings -iname *.ts | xargs -n1 -I {} sed -i '/^export as namespace/d' {}",
     "build": "rm -rf ./lib && ./node_modules/.bin/tsc",
     "example1": "node lib/example/example1.js",
     "example2": "node lib/example/example2.js"
