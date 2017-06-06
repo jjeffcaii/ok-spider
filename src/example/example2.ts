@@ -15,6 +15,7 @@ import {builder} from "../index";
 
 const debug = Debug('example.2');
 
+/*
 const memwatch = require('memwatch-ng');
 const heapdump = require('heapdump');
 
@@ -26,6 +27,7 @@ memwatch.on('leak', function (info) {
         else console.error('Wrote snapshot: ' + file);
     });
 });
+*/
 
 interface CartoonItem extends Item {
     name: string;

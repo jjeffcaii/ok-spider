@@ -1,24 +1,16 @@
 import {XResponse} from "../api";
 import JQuerySelector, {JQuery} from "../selector/jquery";
-import XPathSelector, {XPath} from "../selector/xpath";
-
 
 class SelectorSupport {
 
     private jquerySelector: JQuerySelector;
-    private xpathSelector: XPathSelector;
 
     constructor(response: XResponse) {
         this.jquerySelector = new JQuerySelector(response);
-        this.xpathSelector = new XPathSelector(response);
     }
 
     jquery(str: string): JQuery {
         return this.jquerySelector.$(str);
-    }
-
-    xpath(str: string): XPath {
-        return this.xpathSelector.xpath(str);
     }
 }
 
