@@ -1,7 +1,6 @@
 import {Item} from "../api";
 import {Spider, SpiderOptions} from "../core/spider";
 import * as _ from "lodash";
-import {builder} from "../index";
 import UserAgentMiddleware from "../middleware/useragent";
 import {JsonFileExporter} from "../pipeline/exporter";
 import FileDownloaderPipeline from "../pipeline/filedownloader";
@@ -9,6 +8,7 @@ import StandardResponse from "../response/standard";
 import {getSuffix} from "../utils/x";
 import DelayMiddleware from "../middleware/limit";
 import RetryMiddleware from "../middleware/retry";
+import {builder} from "../index";
 
 interface Movie extends Item {
     magnets: string[];

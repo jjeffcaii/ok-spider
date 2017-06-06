@@ -1,4 +1,3 @@
-import {builder} from "../index";
 import {Spider, SpiderOptions} from "../core/spider";
 import {Item, XResponse} from "../api";
 import StandardResponse from "../response/standard";
@@ -12,6 +11,7 @@ import RetryMiddleware from "../middleware/retry";
 import FileDownloaderPipeline, {DownloadInfo} from "../pipeline/filedownloader";
 import {getSuffix} from "../utils/x";
 import LimitPipeline from "../pipeline/limit";
+import {builder} from "../index";
 
 const debug = Debug('example.2');
 
