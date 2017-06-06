@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jjeffcaii/ok-spider.svg?branch=master)](https://travis-ci.org/jjeffcaii/ok-spider)
+
 # ok-spider
 a simple web crawler like scrapy.
 
