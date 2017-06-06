@@ -33,8 +33,6 @@
     "xpath.js": "^1.0.7"
   },
   "devDependencies": {
-    "memwatch-ng": "^1.2.0",
-    "heapdump": "^0.3.9",
     "chai": "^3.5.0",
     "mocha": "^3.3.0",
     "typescript": "^2.3.2",

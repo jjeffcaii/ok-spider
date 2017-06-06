@@ -62,6 +62,4 @@ typings/
 .idea
 *.iml
 
-yarn.lock
-
 lib
